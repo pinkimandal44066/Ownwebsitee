@@ -1,0 +1,16 @@
+/* Custom CSS for rotation animation */
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .grid-item {
+    animation: rotate 10s linear infinite;
+    /* Optional: Set perspective to make the 3D effect more visible */
+    perspective: 1000px;
+  }
+  

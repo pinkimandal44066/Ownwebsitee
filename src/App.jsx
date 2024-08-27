@@ -61,12 +61,13 @@
 
 
 
-import React from 'react'
-import Navbar from './Components/Navbar'
+import React from 'react';
+import Navbar from './Components/Navbar';
 import Heading from './Components/Heading';
-import Homeone from './Components/Homeone'
-import Hometwo from './Components/Hometwo'
+import Homeone from './Components/Homeone';
+import Hometwo from './Components/Hometwo';
 import Homethree from './Components/Homethree';
+import Footer from './Components/Footer';
 const App = () => {
   return (
     <div>
@@ -74,7 +75,8 @@ const App = () => {
       <Heading />
       <Homeone />
       <Hometwo />
-      {/* <Homethree /> */}
+      <Homethree />
+      <Footer />
      
     </div>
   )

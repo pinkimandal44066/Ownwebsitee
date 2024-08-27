@@ -94,7 +94,8 @@ const Navbar = () => {
 
 <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${homepage})` }}>
   {/* Overlay for better text visibility */}
-  <div className="absolute inset-0 bg-black opacity-50"></div>
+  <div className="absolute inset-0 bg-purple-700 
+  opacity-0"></div>
 </div>
 
       <header className="relative flex items-center justify-between p-4">
@@ -113,13 +114,13 @@ const Navbar = () => {
         {/* Side Menu for Small Screens */}
 
         {/* BGCOLOURrgba(0, 0, 0, 0.8) BD ME ADD KRNA H  */}
-        <nav className={`fixed top-0 right-0 w-2/3 md:w-1/3 bg-gray-900 h-full transform
+        <nav className={`fixed top-0 right-0 w-2/3 md:w-1/3 bg-purple-700 opacity-50 h-full transform
       
            transition-transform duration-300 ${isNavOpen ? 'translate-x-0' : 'translate-x-full'} `}>
           <button onClick={toggleNav} className="absolute top-4 right-4 text-5xl mt-6">
             &times;
           </button>
-          <ul className="flex flex-col items-center mt-16">
+          <ul className="flex flex-col items-center mt-16 font-bold text-xl">
             <li className="py-4"><a href="#home">Home</a></li>
             <li className="py-4"><a href="#services">Services</a></li>
             <li className="py-4"><a href="#about">About</a></li>
