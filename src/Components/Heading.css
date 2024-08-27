@@ -1,0 +1,36 @@
+
+/* HeadingWithUnderline.css */
+.heading-container {
+    display: flex;
+    justify-content: center; /* Heading को horizontally center करेगा */
+    align-items: center; /* अगर आप heading को vertically भी center करना चाहते हैं */
+    height: 20vh; /* Optional: अगर आप पूरे viewport height पर center करना चाहते हैं */
+  }
+  
+  .animated-heading {
+    font-size: 2rem;
+    position: relative;
+    display: inline-block;
+    color: #000;
+    text-align: center; /* Heading text को भी center-align करेगा */
+    font-weight: 500;
+  }
+  
+  .animated-heading::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #000;
+    bottom: -5px;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.5s ease-out;
+  }
+  
+  .animated-heading:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  

@@ -63,6 +63,7 @@
 
 import React from 'react'
 import Navbar from './Components/Navbar'
+import Heading from './Components/Heading';
 import Homeone from './Components/Homeone'
 import Hometwo from './Components/Hometwo'
 import Homethree from './Components/Homethree';
@@ -70,6 +71,7 @@ const App = () => {
   return (
     <div>
       <Navbar />
+      <Heading />
       <Homeone />
       <Hometwo />
       {/* <Homethree /> */}
