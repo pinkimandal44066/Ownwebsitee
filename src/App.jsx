@@ -64,18 +64,24 @@
 import React from 'react';
 import Navbar from './Components/Navbar';
 import Heading from './Components/Heading';
+import Homefour from './Components/Homefour';
 import Homeone from './Components/Homeone';
 import Hometwo from './Components/Hometwo';
 import Homethree from './Components/Homethree';
+import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 const App = () => {
   return (
     <div>
       <Navbar />
       <Heading />
+   
       <Homeone />
       <Hometwo />
+      <Homefour />
       <Homethree />
+     
+      <Contact />
       <Footer />
      
     </div>

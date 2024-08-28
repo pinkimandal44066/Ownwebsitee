@@ -5,7 +5,7 @@ import '../App.css';
 const ResponsiveGrid = () => {
   return (
     <>
-      <div className="p-4 md:p-6 lg:p-8 max-w-screen-lg mx-auto">
+      {/* <div className="p-4 md:p-6 lg:p-8 max-w-screen-lg mx-auto">
         <p className="text-base md:text-lg leading-relaxed">
           Welcome to our company! We are dedicated to providing the best solutions for our clients. With a team of highly skilled professionals, we strive to deliver innovative and effective services tailored to meet your needs. Our mission is to exceed expectations and drive success through our expertise and commitment.
           
@@ -15,7 +15,7 @@ const ResponsiveGrid = () => {
           
           Thank you for considering us as your partner. We look forward to working with you and achieving great results together.
         </p>
-      </div>
+      </div> */}
 
       <div className="p-4">
         <h1 className="text-4xl font-bold text-center mb-32">Featured Solutions</h1>
