@@ -78,7 +78,7 @@ const App = () => {
    
       <Homeone />
       <Hometwo />
-      <Homefour />
+      {/* <Homefour /> */}
       <Homethree />
      
       <Contact />
