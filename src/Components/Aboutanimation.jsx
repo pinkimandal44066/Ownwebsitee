@@ -9,14 +9,9 @@ const Aboutanimation = () => {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
           ducimus cupiditate quo harum officia perspiciatis hic ut sunt
           repudiandae, laboriosam expedita nostrum tempora, consectetur itaque,
-          voluptate error aperiam corrupti ullam aspernatur a! Dolorem,
-          reprehenderit amet quidem deleniti iure rem vel a enim ipsam hic
-          numquam consequatur eius id eaque accusamus repudiandae impedit,
-          quisquam non, harum inventore ratione? Tempora voluptatum ut eligendi
-          corrupti esse, repellat nesciunt illum facilis officiis
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-          ducimus cupiditate quo harum officia perspiciatis hic ut sunt
-          repudiandae, laboriosam expedita nostrum tempora.
+          voluptate error aperiam corrupti ullam aspernatur sunt
+          repudiandae, laboriosam expedita nostrum tempora, consectetur itaque sunt
+          repudiandae, laboriosam expedita nostrum tempora, consectetur itaque,.
         </p>
       </div>
       <div className="animate-div2">
@@ -24,14 +19,9 @@ const Aboutanimation = () => {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
           ducimus cupiditate quo harum officia perspiciatis hic ut sunt
           repudiandae, laboriosam expedita nostrum tempora, consectetur itaque,
-          voluptate error aperiam corrupti ullam aspernatur a! Dolorem,
-          reprehenderit amet quidem deleniti iure rem vel a enim ipsam hic
-          numquam consequatur eius id eaque accusamus repudiandae impedit,
-          quisquam non, harum inventore ratione? Tempora voluptatum ut eligendi
-          corrupti esse, repellat nesciunt illum facilis officiis
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-          ducimus cupiditate quo harum officia perspiciatis hic ut sunt
-          repudiandae, laboriosam expedita nostrum tempora.
+          voluptate error aperiam corrupti ullam aspernatur sunt
+          repudiandae, laboriosam expedita nostrum tempora, consectetur itaque sunt
+          repudiandae, laboriosam expedita nostrum tempora, consectetur itaque,.
         </p>
       </div>
     </div>

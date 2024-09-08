@@ -12,33 +12,35 @@ import "aos/dist/aos.css";
 const teamData = [
     {
       id: 1,
-      name: "John Doe",
+      name: "ABCDF",
       designation: "Frontend Developer",
       img: "https://picsum.photos/200/200",
     },
     {
       id: 2,
-      name: "Jane Smith",
+      name: "EFGHI",
       designation: "UI/UX Designer",
       img: "https://picsum.photos/201/201",
     },
     {
       id: 3,
-      name: "Mike Johnson",
+      name: "JHLM ",
       designation: "Backend Developer",
       img: "https://picsum.photos/202/202",
     },
     {
       id: 4,
-      name: "Emily Davis",
+      name: "NOPQ",
       designation: "Project Manager",
       img: "https://picsum.photos/203/203",
     },
+
+    
   ];
 const OurTeam = () => {
   useEffect(() => {
     AOS.init({
-      duration: 1000,  // Animation duration in milliseconds
+      duration: 1000, 
       once: false,     
     });
   }, []);

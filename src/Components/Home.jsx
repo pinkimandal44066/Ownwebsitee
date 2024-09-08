@@ -5,7 +5,7 @@ import Homeone from './Homeone';
 import Hometwo from './Hometwo';
 import Homethree from './Homethree';
 import Homefour from './Homefour';
-import Animation from './Animation';
+
 const Home = () => {
   return (
     <>
@@ -16,7 +16,7 @@ const Home = () => {
     <Hometwo />
     <Homefour />
     <Homethree />
-     {/* <Animation /> */}
+    
     </>
   )
 }

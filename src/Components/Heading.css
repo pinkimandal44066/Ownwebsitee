@@ -1,10 +1,10 @@
 
-/* HeadingWithUnderline.css */
+
 .heading-container {
     display: flex;
-    justify-content: center; /* Heading को horizontally center करेगा */
-    align-items: center; /* अगर आप heading को vertically भी center करना चाहते हैं */
-    height: 20vh; /* Optional: अगर आप पूरे viewport height पर center करना चाहते हैं */
+    justify-content: center;
+    align-items: center;
+    height: 20vh; 
   }
   
   .animated-heading {
@@ -12,7 +12,7 @@
     position: relative;
     display: inline-block;
     color: #000;
-    text-align: center; /* Heading text को भी center-align करेगा */
+    text-align: center; 
     font-weight: 500;
   }
   
