@@ -1,9 +1,13 @@
-/* @keyframes moveAndStopDiv1 {
+/* 
+
+
+
+   @keyframes moveAndStopDiv1 {
     0% {
       transform: translateX(-100%);
     }
     40%, 60% {
-      transform: translateX(0); 
+      transform: translateX(0);
     }
     100% {
       transform: translateX(-100%);
@@ -15,22 +19,22 @@
       transform: translateX(100%);
     }
     40%, 60% {
-      transform: translateX(0); 
+      transform: translateX(0);
     }
     100% {
-      transform: translateX(100%); 
+      transform: translateX(100%);
     }
   }
   
   .animate-div1 {
-    animation: moveAndStopDiv1 8s ease-in-out infinite;
+    animation: moveAndStopDiv1 8s ease-in-out 1; 
   }
   
   .animate-div2 {
-    animation: moveAndStopDiv2 8s ease-in-out infinite;
+    animation: moveAndStopDiv2 8s ease-in-out 1;
   }
   
- 
+
   @media (max-width: 1536px) { 
     .animate-div1,
     .animate-div2 {
@@ -52,7 +56,7 @@
     }
   }
   
-  @media (max-width: 768px) { 
+  @media (max-width: 768px) {
     .animate-div1,
     .animate-div2 {
       animation-duration: 4.5s;
@@ -91,103 +95,106 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-   @keyframes moveAndStopDiv1 {
-    0% {
-      transform: translateX(-100%);
-    }
-    40%, 60% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
+   
+@keyframes moveAndStopDiv1 {
+  0% {
+    transform: translateX(-100%);
   }
-  
-  @keyframes moveAndStopDiv2 {
-    0% {
-      transform: translateX(100%);
-    }
-    40%, 60% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(100%);
-    }
+  40% {
+    transform: translateX(0);
   }
-  
-  .animate-div1 {
-    animation: moveAndStopDiv1 8s ease-in-out 1; /* 1 cycle ke liye animation */
+  60% {
+    transform: translateX(0);
   }
-  
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes moveAndStopDiv2 {
+  0% {
+    transform: translateX(100%);
+  }
+  40% {
+    transform: translateX(0);
+  }
+  60% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-div1 {
+  animation: moveAndStopDiv1 18s ease-in-out infinite;
+}
+
+.animate-div2 {
+  animation: moveAndStopDiv2 18s ease-in-out infinite;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1536px) {
+  /* 2XL */
+  .animate-div1,
   .animate-div2 {
-    animation: moveAndStopDiv2 8s ease-in-out 1; /* 1 cycle ke liye animation */
+    animation-duration: 17s; /* 7s animation + 10s hold */
   }
-  
-  /* Responsive Adjustments */
-  @media (max-width: 1536px) { /* 2XL */
-    .animate-div1,
-    .animate-div2 {
-      animation-duration: 7s;
-    }
+}
+
+@media (max-width: 1280px) {
+  /* XL */
+  .animate-div1,
+  .animate-div2 {
+    animation-duration: 16s; /* 6s animation + 10s hold */
   }
-  
-  @media (max-width: 1280px) { /* XL */
-    .animate-div1,
-    .animate-div2 {
-      animation-duration: 6s;
-    }
+}
+
+@media (max-width: 1024px) {
+  /* LG */
+  .animate-div1,
+  .animate-div2 {
+    animation-duration: 15s; /* 5s animation + 10s hold */
   }
-  
-  @media (max-width: 1024px) { /* LG */
-    .animate-div1,
-    .animate-div2 {
-      animation-duration: 5s;
-    }
+}
+
+@media (max-width: 768px) {
+  /* MD */
+  .animate-div1,
+  .animate-div2 {
+    animation-duration: 14.5s; /* 4.5s animation + 10s hold */
   }
-  
-  @media (max-width: 768px) { /* MD */
-    .animate-div1,
-    .animate-div2 {
-      animation-duration: 4.5s;
-    }
+}
+
+@media (max-width: 640px) {
+  /* SM */
+  .animate-div1,
+  .animate-div2 {
+    animation-duration: 14s; /* 4s animation + 10s hold */
   }
-  
-  @media (max-width: 640px) { /* SM */
-    .animate-div1,
-    .animate-div2 {
-      animation-duration: 4s;
-    }
+}
+
+@media (max-width: 480px) {
+  /* Mobile */
+  .animate-div1,
+  .animate-div2 {
+    animation-duration: 13.5s; /* 3.5s animation + 10s hold */
   }
-  
-  @media (max-width: 480px) { /* Mobile */
-    .animate-div1,
-    .animate-div2 {
-      animation-duration: 3.5s;
-    }
+}
+
+@media (max-width: 360px) {
+  /* Mobile Desktop */
+  .animate-div1,
+  .animate-div2 {
+    animation-duration: 13s; /* 3s animation + 10s hold */
   }
-  
-  @media (max-width: 360px) { /* Mobile Desktop */
-    .animate-div1,
-    .animate-div2 {
-      animation-duration: 3s;
-    }
+}
+
+@media (max-width: 320px) {
+  /* Mobile Tablet */
+  .animate-div1,
+  .animate-div2 {
+    animation-duration: 12.5s; /* 2.5s animation + 10s hold */
   }
-  
-  @media (max-width: 320px) { /* Mobile Tablet */
-    .animate-div1,
-    .animate-div2 {
-      animation-duration: 2.5s;
-    }
-  }
-  
+}
