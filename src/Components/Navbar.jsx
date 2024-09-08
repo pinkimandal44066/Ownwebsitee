@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import homepage from "../../public/Images/homepage.png";
 import { NavLink } from "react-router-dom";
+import Preloader from './Preloader';
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
@@ -9,6 +10,7 @@ const Navbar = () => {
   };
   return (
     <>
+    {/* <Preloader /> */}
       <div className="relative" style={{ height: "80vh", color: "white" }}>
         
 
@@ -75,9 +77,11 @@ const Navbar = () => {
               </li>
 
               </NavLink>
+              <NavLink to='/contact'>
               <li className="py-4">
                 <a href="#contact">Contact</a>
               </li>
+              </NavLink>
             </ul>
           </nav>
         </header>

@@ -117,6 +117,7 @@ import LayOut from "./Components/LayOut";
 import Home from "./Components/Home";
 import About from './Components/About';
 import Service from "./Components/Service";
+import Contact from './Components/Contact';
 // import Service from "./Components/Service";
 // import Contactus from "./Components/Contactus";
 // import Careers from './Components/Careers';
@@ -149,6 +150,7 @@ const App = () => {
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/service" element={<Service />} />
+              <Route path="/contact" element={<Contact />} />
               {/* <Route path="/aboutus" element={<Aboutus />} />
               <Route path="/contactus" element={<Contactus />} />
               <Route path="/Servicepage" element={< Servicepage/>} />

@@ -267,7 +267,7 @@ import React from "react";
 import { MdFlight, MdOutlineLocalHotel } from "react-icons/md";
 import { IoIosWifi } from "react-icons/io";
 import { IoFastFoodSharp } from "react-icons/io5";
-import TravelImg from '/Images/travelbox.png'; 
+import TravelImg from '/Images/travelbox.webp'; 
 import Aboutanimation from "./Aboutanimation";
 import Ourteam from "./Ourteam";
 const Banner = () => {
@@ -286,7 +286,7 @@ const Banner = () => {
                 />
               </div>
        
-              <div className="flex flex-col justify-center gap-6 sm:pt-0 lg:px-16">
+              <div className="flex flex-col justify-center gap-6 sm:pt-0 lg:px-16 px-5">
                 <h1
                   data-aos="fade-up"
                   className="text-3xl sm:text-4xl font-bold"
@@ -295,7 +295,7 @@ const Banner = () => {
                 </h1>
                 <p
                   data-aos="fade-up"
-                  className="text-sm text-red-900 tracking-wide leading-8"
+                  className="text-sm text-black tracking-wide leading-8"
                 >
                    At [Company Name], we specialize in providing cutting-edge technology solutions
                    tailored to meet the unique needs of our clients. With a team of experienced
@@ -306,21 +306,21 @@ const Banner = () => {
                   <div className="space-y-6">
                     <div className="flex items-center gap-4">
                       <MdFlight className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-violet-100 dark:bg-violet-400" />
-                      <p>Flight</p>
+                      <p>Abcd</p>
                     </div>
                     <div className="flex items-center gap-4">
                       <MdOutlineLocalHotel className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-orange-100 dark:bg-orange-400" />
-                      <p>Hotel</p>
+                      <p>Efgh</p>
                     </div>
                   </div>
                   <div className="space-y-6">
                     <div className="flex items-center gap-4">
                       <IoIosWifi className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-green-100 dark:bg-green-400" />
-                      <p>Wi-fi</p>
+                      <p>Ijkl</p>
                     </div>
                     <div className="flex items-center gap-4">
                       <IoFastFoodSharp className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-yellow-100 dark:bg-yellow-400" />
-                      <p>Foods</p>
+                      <p>Mnop</p>
                     </div>
                   </div>
                 </div>
