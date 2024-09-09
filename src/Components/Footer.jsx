@@ -1,6 +1,6 @@
 import React from "react";
 // import './Footer.css';
-
+import { NavLink } from "react-router-dom";
 const Footer = () => {
   return (
     <div>
@@ -27,26 +27,36 @@ const Footer = () => {
             <div className="w-full md:w-1/4 mb-6 md:mb-0">
               <h3 className="text-xl font-bold mb-4">Quick Links</h3>
               <ul>
+              <NavLink to='/' >
                 <li>
                   <a href="#" className="text-gray-400 hover:text-white">
                     Home
                   </a>
                 </li>
+                </NavLink>
+
+                <NavLink to='/about'>
                 <li>
                   <a href="#" className="text-gray-400 hover:text-white">
                     About Us
                   </a>
                 </li>
+                </NavLink>
+                <NavLink to='/service'>
                 <li>
                   <a href="#" className="text-gray-400 hover:text-white">
                     Services
                   </a>
                 </li>
+                </NavLink>
+
+                <NavLink to='/contact'>
                 <li>
                   <a href="#" className="text-gray-400 hover:text-white">
                     Contact
                   </a>
                 </li>
+                </NavLink>
               </ul>
             </div>
 

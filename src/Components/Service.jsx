@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Scrolling from "../Components/Scrolling";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Scrollslider from "./Scrollslider";
@@ -152,4 +153,4 @@ const Service = () => {
   );
 };
 
-export default Service;
+export default  Scrolling(Service);

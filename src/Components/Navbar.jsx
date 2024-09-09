@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Scrolling from '../Components/Scrolling';
 import homepage from "../../public/Images/homepage.png";
 import { NavLink } from "react-router-dom";
 import Preloader from './Preloader';
@@ -64,16 +65,18 @@ const Navbar = () => {
               </li>
               </NavLink>
 
-              <NavLink to='/service'>
-              <li className="py-4">
-                <a href="#services">Services</a>
-              </li>
-
-              </NavLink>
+             
 
               <NavLink to='/about'>
               <li className="py-4">
                 <a href="#about">About</a>
+              </li>
+
+              </NavLink>
+
+              <NavLink to='/service'>
+              <li className="py-4">
+                <a href="#services">Services</a>
               </li>
 
               </NavLink>
@@ -90,7 +93,7 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default   Scrolling(Navbar);
 
 
 

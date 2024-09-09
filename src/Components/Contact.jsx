@@ -158,6 +158,7 @@
 
 
 import React from "react";
+import Scrolling from '../Components/Scrolling';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
@@ -289,4 +290,10 @@ import { useEffect } from 'react';
   );
 };
 
-export default ContactPage;
+export default   Scrolling(ContactPage);
+
+
+
+
+
+

@@ -69,7 +69,8 @@ const App = () => {
             <div className="shape shape-2"></div>
             <div className="shape shape-3"></div>
           </div>
-          <p className="loading-text">Loading, please wait...</p>
+          {/* <p className="loading-text">Loading, please wait...</p> */}
+          <p className="loading-text">WelCome TO Our Website...</p>
         </div>
       ) : (
         <div className="home-page">

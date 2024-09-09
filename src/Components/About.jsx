@@ -264,13 +264,14 @@
 
 
 import React from "react";
+import Scrolling from '../Components/Scrolling';
 import { MdFlight, MdOutlineLocalHotel } from "react-icons/md";
 import { IoIosWifi } from "react-icons/io";
 import { IoFastFoodSharp } from "react-icons/io5";
 import TravelImg from '/Images/travelbox.webp'; 
 import Aboutanimation from "./Aboutanimation";
 import Ourteam from "./Ourteam";
-const Banner = () => {
+const About = () => {
   return (
     <>
       <div className="min-h-[550px] bg-white">
@@ -355,4 +356,4 @@ const Banner = () => {
   );
 };
 
-export default Banner;
+export default   Scrolling(About);
